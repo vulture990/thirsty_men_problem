@@ -1,1 +1,24 @@
+If some of the guests are not behaving honestly and are trying to cheat by placing their cups in positions other than the first or last, 
+it may be more difficult to find a solution that avoids a deadlock. However, we can enforce for punishment for cheating such that 
+we will create a system of punishment for anyone who tries to cheat. For example, they could agree that anyone caught cheating will be banned from the game for a certain period of time. This can help to discourage cheating and ensure that the game is fair.
+
+and if all the guests are behaving honestly (we might acutally reward them for that by setting some incentive for behaving honestly like miners in a blockchain)
+One of the guests (we'll call him A) volunteers to be the first to put his cup on the table. He puts his cup in the first position (head of the row).
+
+Another guest (we'll call him B) volunteers to be the second to put his cup on the table. He puts his cup in the last position (tail of the row).
+
+The host pours water into the first and last cups (A's cup and B's cup).
+
+A and B each drink from their cups.
+
+B gives his empty cup to another guest (we'll call him C).
+
+C puts his cup in the last position (tail of the row).
+
+The host pours water into the first and last cups (A's cup and C's cup).
+
+A and C each drink from their cups.
+
+This process can continue until all of the guests have had a chance to drink.
+ By following this strategy, the guests can avoid a deadlock and ensure that everyone gets a chance to drink. 
 
